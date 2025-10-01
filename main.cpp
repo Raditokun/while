@@ -1,14 +1,17 @@
-#include  <iostream>
+#include <iostream>
+
 using namespace std;
-int main() {
+
+int main()
+{
    int n;
-   cout << "masukkan bilangan anda: ";
+   cout << "masukkan bilanganmu: ";
    cin >> n;
 
-   if (n<2)
+   if (n<1)
    {
-      cout<< n <<" bukan bilangan prima";
-
+      cout << n << " adalah bukan bilangan prima";
+      return 0;
    }
 
    int i=2;
@@ -16,13 +19,11 @@ int main() {
    {
       if (n%i==0)
       {
-         cout<< n <<" bukan bilangan prima";
+         cout << n << " adalah bukan bilangan prima";
          return 0;
       }
       i++;
    }
-   cout<< n <<" adalah bilangan prima";
+   cout << n << " adalah bukan bilangan prima";
    return 0;
-
-
 }
