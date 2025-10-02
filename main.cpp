@@ -15,15 +15,15 @@ int main()
    }
 
    int i=2;
-   while (i<=n/2)
-   {
+   do   {
+
       if (n%i==0)
       {
          cout << n << " adalah bukan bilangan prima";
          return 0;
       }
       i++;
-   }
+   }while (i<=n/2);
    cout << n << " adalah  bilangan prima";
    return 0;
 }
