@@ -8,7 +8,7 @@ int main()
    cout << "masukkan bilanganmu: ";
    cin >> n;
 
-   if (n<1)
+   if (n<2)
    {
       cout << n << " adalah bukan bilangan prima";
       return 0;
@@ -24,6 +24,6 @@ int main()
       }
       i++;
    }
-   cout << n << " adalah bukan bilangan prima";
+   cout << n << " adalah  bilangan prima";
    return 0;
 }
